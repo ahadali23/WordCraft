@@ -48,7 +48,7 @@ function App(){
   return(
     <>
     <Router>
-      <Navbar title="TestApp" aboutText="About Us" mode={mode} toggleMode={toggleMode} />
+      <Navbar title="WordCraft" aboutText="About Us" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert}/>
       <div className="container my-3">
         <Routes>
